@@ -49,9 +49,7 @@ function Projects() {
               isBlog={false}
               title="Food App"
               description=" 'JAY DA DABHA' is a dynamic food app built with React, integrating Swiggy's live API for real-time restaurant and menu updates. It offers a seamless food ordering experience with an intuitive UI. Users can browse, select, and order their favorite dishes effortlessly."
-              ghLink="https://github.com/jaykumar2004/React-JS-with-AS/tree/main/Swiggy_from_episode-5"
-              //add demo link when ready
-              // demoLink="https://editor.soumya-jit.tech/"              
+              ghLink="https://github.com/jaykumar2004/React-JS-with-AS/tree/main/Swiggy_from_episode-5"           
             />
           </Col>
 
@@ -73,22 +71,9 @@ function Projects() {
               title="To-Do list"
               description="A To-Do List app built with Redux Toolkit (RTK) for efficient state management. Users can add, edit, and delete tasks with a seamless and responsive UI. Designed for productivity with a smooth user experience."
               ghLink="https://github.com/jaykumar2004/To_Do_List_By_RTK"
-              // demoLink="https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley" <--------Please include a demo link here
               demoLink = "https://to-do-list-by-rtk.vercel.app/"
             />
           </Col>
-
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
-              // demoLink="https://blogs.soumya-jit.tech/"      <--------Please include a demo link here 
-            />
-          </Col> */}
         </Row>
       </Container>
     </Container>
