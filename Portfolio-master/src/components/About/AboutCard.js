@@ -11,7 +11,8 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Jay Kumar Jangid </span>
             from <span className="purple"> Mount Abu, Rajasthan, India.</span>
             <br />
-            I am currently pursing Bachelor's degree from Poornima College Of Engineering 
+            I have completed my Bachelor's degree from Poornima College Of
+            Engineering
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
@@ -29,7 +30,8 @@ function AboutCard() {
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Any fool can write code that a computer can understand. Good programmers write code that humans can understand."{" "}
+            "Any fool can write code that a computer can understand. Good
+            programmers write code that humans can understand."{" "}
           </p>
           <footer className="blockquote-footer">Martin Fowler</footer>
         </blockquote>
