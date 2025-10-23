@@ -5,15 +5,14 @@ import Container from "react-bootstrap/Container";
 import logo from "../Assets/LOGO.jpg";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
-import { CgGitFork } from "react-icons/cg";
+import { CgGitFork, CgFileDocument } from "react-icons/cg";
 import {
   AiFillStar,
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
-import { CgFileDocument } from "react-icons/cg";
+import { FaBlog } from "react-icons/fa";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -78,6 +77,17 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+
+            {/* New Blog Link */}
+            <Nav.Item>
+              <Nav.Link
+                href="https://quick-blog-mu.vercel.app/"
+                target="_blank"
+                onClick={() => updateExpanded(false)}
+              >
+                <FaBlog style={{ marginBottom: "2px" }} /> Blog
               </Nav.Link>
             </Nav.Item>
 
